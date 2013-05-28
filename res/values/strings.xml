@@ -1,0 +1,184 @@
+<resources>
+    <string name="not_supported">"Not Supported"</string>
+    
+    
+   	<!-- SharedPreference Key(CameraSetting) -->
+	<string name="mCameraPos">CameraPos</string>	
+	<string name="mAntibanding">Antibanding</string>
+	<string name="mColorEffect">ColorEffect</string>
+	<string name="mFlashMode">FlashMode</string>	
+	<string name="mFocusMode">FocusMode</string>	
+	<string name="mJpegThumbnailSize">JpegThumbnailSize</string>	
+	<string name="mPictureSize">PictureSize</string>	
+	<string name="mPreviewSize">PreviewSize</string>	
+	<string name="mSceneMode">SceneMode</string>	
+	<string name="mVideoSize">VideoSize</string>	
+	<string name="mWhiteBalance">WhiteBalance</string>	
+	<string name="mZoom">Zoom</string>	
+	<string name="mJpegQuality">JpegQuality</string>	
+	<string name="mExposurecompensation">Exposurecompensation</string>	
+	<string name="mPictureFormat">PictureFormat</string>	
+	<string name="mPreviewFormat">PreviewFormat</string>
+	<string name="mJpegThumbnailQuality">JpegThumbnailQuality</string>
+	<string name="mExposureLock">ExposureLock</string>
+	<string name="mVideoStabilization">VideoStabilization</string>	
+	<string name="mAutoWhiteBalanceLock">AutoWhiteBalanceLock</string>	
+	<string name="mPreviewFrameRate">PreviewFrameRate</string>
+	<string name="mPreviewFpsRange">PreviewFpsRange</string>	
+	<string name="mFocusAreas">FocusAreas</string>
+	<string name="mMeteringAreas">MeteringAreas</string>
+						
+    <!-- Camera Setting  -->
+    <string name="setting_info">setting_info</string>
+	<string name="setting_category_title_picture">"Image setting"</string>
+	<string name="setting_category_title_quality">"Quality setting"</string>
+	<string name="setting_category_title_imaging">"Imaging setting"</string>
+
+	<string name="setting_no_info_pref_title">"No option"</string>
+	
+    <string name="setting_name">"Imaging setting"</string>
+    <string name="anti_banding_dialog_title">"Anti-banding"</string>
+    <string name="anti_banding_title">"Anti-banding"</string>
+    <string name="anti_banding_summary">"Choose frequency"</string>
+    <string name="anti_banding_50Hz">"50Hz"</string>
+    <string name="anti_banding_60Hz">"60Hz"</string>
+    <string name="anti_banding_auto">"Auto"</string>
+    <string name="anti_banding_off">"Off"</string>
+    <string name="anti_banding_etc">"Phone specific"</string>
+	
+	<string name="color_effect_dialog_title">"Filter"</string>
+	<string name="color_effect_title">"Filter"</string>
+	<string name="color_effect_summary">"Choose filter"</string>
+	<string name="color_effect_aqua">"Aqua"</string>
+	<string name="color_effect_blackboard">"Blackboard"</string>
+	<string name="color_effect_mono">"Mono"</string>
+	<string name="color_effect_negative">"Negative"</string>
+	<string name="color_effect_none">"Off"</string>
+	<string name="color_effect_posterize">"Posterize"</string>
+	<string name="color_effect_sepia">"Sepia"</string>
+	<string name="color_effect_solarize">"Solarize"</string>
+	<string name="color_effect_whiteboard">"Whiteboard"</string>
+    <string name="color_effect_etc">"Phone specific"</string>
+
+	<string name="flash_mode_dialog_title">"Flash"</string>
+	<string name="flash_mode_title">"Flash"</string>
+	<string name="flash_mode_summary">"Choose flash function"</string>
+	<string name="flash_mode_auto">"Auto"</string>
+	<string name="flash_mode_on">"On"</string>
+	<string name="flash_mode_off">"Off"</string>
+	<string name="flash_mode_torch">"Torch"</string>
+	<string name="flash_mode_red_eye">"Red eye"</string>
+    <string name="flash_mode_etc">"Phone specific"</string>
+
+	<string name="focus_mode_dialog_title">"Focus"</string>
+	<string name="focus_mode_title">"Focus"</string>
+	<string name="focus_mode_summary">"Choose focus"</string>
+	<string name="focus_mode_auto">"Auto"</string>
+	<string name="focus_mode_continuous_video">"Continuous Video"</string>
+	<string name="focus_mode_continuous_pic">"Continuous"</string>
+   	<string name="focus_mode_EDOF">"EDOF"</string>
+	<string name="focus_mode_fixed">"Fixed"</string>
+	<string name="focus_mode_infinity">"Infinity"</string>
+	<string name="focus_mode_macro">"Macro"</string>
+    <string name="focus_mode_etc">"Phone specific"</string>
+    
+    <string name="image_format_jpeg">"JPEG</string>
+    <string name="image_format_nv16">"NV16</string>
+    <string name="image_foramt_nv21">"NV21</string>
+    <string name="image_format_rgb_565">"RGB_565"</string>
+    <string name="image_format_nuknown">"UNKNOWN"</string>
+    <string name="image_format_yuy2">"YUY2"</string>
+    <string name="image_format_yu12">"YU12"</string>
+    
+	<string name="scene_mode_dialog_title">"Scene mode"</string>
+	<string name="scene_mode_title">"Scene mode"</string>
+	<string name="scene_mode_summary">"Choose scene mode"</string>
+	<string name="scene_mode_action">"Action"</string>
+	<string name="scene_mode_auto">"Auto"</string>
+	<string name="scene_mode_barcode">"Barcode"</string>
+	<string name="scene_mode_beach">"Beach"</string>
+	<string name="scene_mode_candle_light">"Candle light"</string>
+	<string name="scene_mode_fireworks">"Fireworks"</string>
+	<string name="scene_mode_landscape">"Landscape"</string>
+	<string name="scene_mode_night">"Night"</string>
+	<string name="scene_mode_night_portrait">"Night portrait"</string>
+	<string name="scene_mode_party">"Party"</string>
+	<string name="scene_mode_portrait">"Portrait"</string>
+	<string name="scene_mode_snow">"Snow"</string>
+	<string name="scene_mode_sports">"Sports"</string>
+	<string name="scene_mode_steadyphoto">"Steady photo"</string>
+	<string name="scene_mode_sunset">"Sunset"</string>
+	<string name="scene_mode_theatre">"Theatre"</string>
+	<string name="scene_mode_etc">"Phone specific"</string>
+		
+	<string name="white_balance_dialog_title">"White balance"</string>
+	<string name="white_balance_title">"White balance"</string>
+	<string name="white_balance_summary">"Choose white balance"</string>
+	<string name="white_balance_auto">"Auto"</string>
+	<string name="white_balance_cloudy_daylight">"Cloudy daylight"</string>
+	<string name="white_balance_daylight">"Daylight"</string>
+	<string name="white_balance_fluoresent">"fluorescent"</string>
+	<string name="white_balance_incandesent">"Incandesent"</string>
+	<string name="white_balance_shade">"Shade"</string>
+	<string name="white_balance_twilight">"Twilight"</string>
+	<string name="white_balance_warm_fluorecent">"Warm fluorescent"</string>
+	<string name="white_balance_etc">"Phone specific"</string>
+	
+	<string name="picture_size_dialog_title">"Picture size"</string>
+	<string name="picture_size_title">"Picture size"</string>
+	<string name="picture_size_summary">"Choose picture size"</string>
+	
+	<string name="preview_size_dialog_title">"Preview Size"</string>
+	<string name="preview_size_title">"Preview Size"</string>
+	<string name="preview_size_summary">"Choose Preview Size"</string>
+		
+	<string name="jpeg_thumbnail_size_dialog_title">"Thumbnail size"</string>
+	<string name="jpeg_thumbnail_size_title">"Thumbnail size"</string>
+	<string name="jpeg_thumbnail_size_summary">"Choose thumbnail size"</string>
+	
+	<string name="video_size_dialog_title">"Video size"</string>
+	<string name="video_size_title">"Video size"</string>
+	<string name="video_size_summary">"Choose video size"</string>
+
+	<string name="zoom_dialog_title">"Zoom"</string>
+	<string name="zoom_title">"Zoom"</string>
+	<string name="zoom_summary">"Choose zoom"</string>
+	
+	<string name="exposure_compensation_dialog_title">"Exposure compensation"</string>
+	<string name="exposure_compensation_title">Exposure compensation"</string>
+	<string name="exposure_compensation_summary">"Correct brightness"</string>
+	
+	<string name="jpeg_quality_dialog_title">"Image quality"</string>
+	<string name="jpeg_quality_title">"Image quality"</string>
+	<string name="jpeg_quality_summary">"Choose compression ratio"</string>
+		
+	<string name="picture_format_dialog_title">"Picture Format"</string>
+	<string name="picture_format_title">"Picture Format"</string>
+	<string name="picture_format_summary">"Choose picture format"</string>
+	
+	<string name="preview_format_dialog_title">"Preview Format"</string>
+	<string name="preview_format_title">"Preview Format"</string>
+	<string name="preview_format_summary">"Choose Preview Format"</string>
+	
+	<string name="jpeg_thumbnail_quality_dialog_title">"Thumbnail Quality"</string>
+	<string name="jpeg_thumbnail_quality_title">"Thumbnail Quality"</string>
+	<string name="jpeg_thumbnail_quality_summary">"Choose compression ratio of thumbnail"</string>
+	
+	<string name="exposure_lock_title">"Lock Auto Exposure"</string>
+	<string name="exposure_lock_summary">"Lock Auto Exposure"</string>
+	
+	<string name="video_stabilization_title">"Video Stabilization"</string>
+	<string name="video_stabilization_summary">"It reduses the shake in both preview and video recording"</string>	
+	
+	<string name="auto_white_balance_lock_title">"Lock auto white balance"</string>
+	<string name="auto_white_balance_lock_summary">"Lock auto white balance"</string>
+	
+	<string name="preview_frame_rate_dialog_title">"Perview FPS"</string>
+	<string name="preview_frame_rate_title">"Perview FPS"</string>
+	<string name="preview_frame_rate_summary">"Choose the rate at which preview frames are received."</string>
+
+	<string name="preview_fps_range_dialog_title">"Preview FPS Range"</string>
+	<string name="preview_fps_range_title">"Preview FPS Range"</string>
+	<string name="preview_fps_range_summary">"Choose maximum and maximum preview fps."</string>
+				
+</resources>

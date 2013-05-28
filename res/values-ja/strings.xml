@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="not_supported">"非サポート"</string>
+    
+   	<!-- SharedPreference Key(CameraSetting) -->
+	<string name="mCameraPos">CameraPos</string>	
+	<string name="mAntibanding">Antibanding</string>
+	<string name="mColorEffect">ColorEffect</string>
+	<string name="mFlashMode">FlashMode</string>	
+	<string name="mFocusMode">FocusMode</string>	
+	<string name="mJpegThumbnailSize">JpegThumbnailSize</string>	
+	<string name="mPictureSize">PictureSize</string>	
+	<string name="mPreviewFpsRange">PreviewFpsRange</string>	
+	<string name="mPreviewFrameRate">PreviewFrameRate</string>	
+	<string name="mPreviewSize">PreviewSize</string>	
+	<string name="mSceneMode">SceneMode</string>	
+	<string name="mVideoSize">VideoSize</string>	
+	<string name="mWhiteBalance">WhiteBalance</string>	
+	<string name="mZoom">Zoom</string>	
+	<string name="mJpegQuality">JpegQuality</string>	
+	<string name="mExposurecompensation">Exposurecompensation</string>	
+	<string name="mPictureFormat">PictureFormat</string>	
+	<string name="mPreviewFormat">PreviewFormat</string>
+	<string name="mJpegThumbnailQuality">JpegThumbnailQuality</string>
+	<string name="mExposureLock">ExposureLock</string>
+	<string name="mVideoStabilization">VideoStabilization</string>	
+	<string name="mAutoWhiteBalanceLock">AutoWhiteBalanceLock</string>	
+	<string name="mFocusAreas">FocusAreas</string>
+	<string name="mMeteringAreas">MeteringAreas</string>
+	
+    <!-- Camera Setting  -->
+    <string name="setting_info">setting_info</string>
+	<string name="setting_category_title_picture">画像設定</string>
+	<string name="setting_category_title_quality">画質設定</string>
+	<string name="setting_category_title_imaging">撮影設定</string>
+
+	<string name="setting_no_info_pref_title">設定項目はありません</string>
+	
+    <string name="setting_name">撮影設定</string>
+    <string name="anti_banding_dialog_title">フリッカー軽減設定</string>
+    <string name="anti_banding_title">フリッカー軽減設定</string>
+    <string name="anti_banding_summary">チラツキのもととなる周波数を選択します</string>
+    <string name="anti_banding_50Hz">50Hz</string>
+    <string name="anti_banding_60Hz">60Hz</string>
+    <string name="anti_banding_auto">自動</string>
+    <string name="anti_banding_off">なし</string>
+    <string name="anti_banding_etc">機種固有</string>
+	
+	<string name="color_effect_dialog_title">フィルタ</string>
+	<string name="color_effect_title">フィルタ</string>
+	<string name="color_effect_summary">フィルタを設定します</string>
+	<string name="color_effect_aqua">アクア</string>
+	<string name="color_effect_blackboard">黒板</string>
+	<string name="color_effect_mono">白黒</string>
+	<string name="color_effect_negative">色調反転</string>
+	<string name="color_effect_none">なし</string>
+	<string name="color_effect_posterize">ポスタライズ</string>
+	<string name="color_effect_sepia">セピア</string>
+	<string name="color_effect_solarize">ソラライズ</string>
+	<string name="color_effect_whiteboard">ホワイトボード</string>
+    <string name="color_effect_etc">機種固有</string>
+
+	<string name="flash_mode_dialog_title">フラッシュ</string>
+	<string name="flash_mode_title">フラッシュ</string>
+	<string name="flash_mode_summary">フラッシュの発光方法を選択します</string>
+	<string name="flash_mode_auto">自動</string>
+	<string name="flash_mode_on">強制発光</string>
+	<string name="flash_mode_off">発光しない</string>
+	<string name="flash_mode_torch">プレビュー発光</string>
+	<string name="flash_mode_red_eye">赤目防止</string>
+    <string name="flash_mode_etc">機種固有</string>
+
+	<string name="focus_mode_dialog_title">ピント調節</string>
+	<string name="focus_mode_title">ピント調節</string>
+	<string name="focus_mode_summary">ピント調節の方法を選択します</string>
+	<string name="focus_mode_auto">オートフォーカス</string>
+	<string name="focus_mode_continuous_video">コンティニュアスビデオ</string>
+	<string name="focus_mode_continuous_pic">コンティニュアス</string>	    
+   	<string name="focus_mode_EDOF">深度優先</string>
+	<string name="focus_mode_fixed">固定</string>
+	<string name="focus_mode_infinity">無限遠</string>
+	<string name="focus_mode_macro">マクロ</string>
+    <string name="focus_mode_etc">機種固有</string>
+
+    <string name="image_format_jpeg">"JPEG</string>
+    <string name="image_format_nv16">"NV16</string>
+    <string name="image_foramt_nv21">"NV21</string>
+    <string name="image_format_rgb_565">"RGB_565"</string>
+    <string name="image_format_nuknown">"UNKNOWN"</string>
+    <string name="image_format_yuy2">"YUY2"</string>
+    <string name="image_format_yu12">"YU12"</string>
+
+	<string name="scene_mode_dialog_title">シーンモード</string>
+	<string name="scene_mode_title">シーンモード</string>
+	<string name="scene_mode_summary">撮影シーンに適した撮影方法を選択します</string>
+	<string name="scene_mode_action">アクション</string>
+	<string name="scene_mode_auto">なし</string>
+	<string name="scene_mode_barcode">バーコード</string>
+	<string name="scene_mode_beach">ビーチ</string>
+	<string name="scene_mode_candle_light">キャンドルライト</string>
+	<string name="scene_mode_fireworks">花火</string>
+	<string name="scene_mode_landscape">風景</string>
+	<string name="scene_mode_night">夜景</string>
+	<string name="scene_mode_night_portrait">ポートレート(夜)</string>
+	<string name="scene_mode_party">パーティ</string>
+	<string name="scene_mode_portrait">ポートレート</string>
+	<string name="scene_mode_snow">雪景</string>
+	<string name="scene_mode_sports">スポーツ</string>
+	<string name="scene_mode_steadyphoto">手ぶれ軽減</string>
+	<string name="scene_mode_sunset">夕景</string>
+	<string name="scene_mode_theatre">シアター</string>
+	<string name="scene_mode_etc">機種固有</string>
+	
+	<string name="white_balance_dialog_title">ホワイトバランス</string>
+	<string name="white_balance_title">ホワイトバランス</string>
+	<string name="white_balance_summary">光源の設定をします</string>
+	<string name="white_balance_auto">自動</string>
+	<string name="white_balance_cloudy_daylight">雲天</string>
+	<string name="white_balance_daylight">晴天</string>
+	<string name="white_balance_fluoresent">蛍光灯</string>
+	<string name="white_balance_incandesent">白熱灯</string>
+	<string name="white_balance_shade">日陰</string>
+	<string name="white_balance_twilight">夕日</string>
+	<string name="white_balance_warm_fluorecent">蛍光灯(電球色)</string>
+	<string name="white_balance_etc">機種固有</string>
+	
+	<string name="picture_size_dialog_title">撮影サイズ</string>
+	<string name="picture_size_title">撮影サイズ</string>
+	<string name="picture_size_summary">画像のサイズを選択します</string>
+
+	<string name="preview_size_dialog_title">プレビューサイズ</string>
+	<string name="preview_size_title">プレビューサイズ</string>
+	<string name="preview_size_summary">プレビューサイズを選択します</string>
+		
+	<string name="jpeg_thumbnail_size_dialog_title">サムネイルサイズ</string>
+	<string name="jpeg_thumbnail_size_title">サムネイルサイズ</string>
+	<string name="jpeg_thumbnail_size_summary">Jpegに埋め込むサムネイル画像のサイズを選択します</string>
+	
+	<string name="video_size_dialog_title">ビデオサイズ</string>
+	<string name="video_size_title">ビデオサイズ</string>
+	<string name="video_size_summary">ビデオの拡大率を選択します</string>
+
+	<string name="zoom_dialog_title">ズーム</string>
+	<string name="zoom_title">ズーム</string>
+	<string name="zoom_summary">写真の拡大率を選択します</string>
+	
+	<string name="exposure_compensation_dialog_title">露出補正</string>
+	<string name="exposure_compensation_title">露出補正</string>
+	<string name="exposure_compensation_summary">写真の明るさを変更します</string>
+	
+	<string name="jpeg_quality_dialog_title">画質</string>
+	<string name="jpeg_quality_title">画質</string>
+	<string name="jpeg_quality_summary">画像の圧縮率を設定します</string>
+
+	<string name="picture_format_dialog_title">写真フォーマット</string>
+	<string name="picture_format_title">写真フォーマット</string>
+	<string name="picture_format_summary">記録する画像のフォーマットを設定します</string>
+
+	<string name="preview_format_dialog_title">プレビューフォーマット</string>
+	<string name="preview_format_title">プレビューフォーマット</string>
+	<string name="preview_format_summary">プレビュー画像のフォーマットを設定します</string>
+	
+	<string name="jpeg_thumbnail_quality_dialog_title">サムネイル画質</string>
+	<string name="jpeg_thumbnail_quality_title">サムネイル画質</string>
+	<string name="jpeg_thumbnail_quality_summary">サムネイル画像の圧縮率を設定します</string>
+	
+	<string name="exposure_lock_title">露出固定</string>
+	<string name="exposure_lock_summary">露出を固定します</string>
+	
+	<string name="video_stabilization_title">ビデオ手ぶれ補正</string>
+	<string name="video_stabilization_summary">プレビュー及びビデオ録画中の手振れを補正します</string>	
+	
+	<string name="auto_white_balance_lock_title">ホワイトバランス固定</string>
+	<string name="auto_white_balance_lock_summary">ホワイトバランスを固定します</string>
+
+	<string name="preview_frame_rate_dialog_title">プレビューfps</string>
+	<string name="preview_frame_rate_title">プレビュ－fps</string>
+	<string name="preview_frame_rate_summary">プレビューのフレームレートを設定します</string>
+	
+	<string name="preview_fps_range_dialog_title">プレビューfpsレンジ</string>
+	<string name="preview_fps_range_title">プレビューfpsレンジ</string>
+	<string name="preview_fps_range_summary">プレビューのフレームレートの範囲を設定します</string>
+	
+</resources>
